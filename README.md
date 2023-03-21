@@ -1,2 +1,3 @@
 # Portfolio-site
 This is my portfolio-site...
+You look my works and my UI/UX experience. I started to learn HTML/CSS since JavaScript because it's just usualy programing languages for creates web-sites. 
