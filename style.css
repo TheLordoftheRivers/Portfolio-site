@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+:root {
+ --dark: rgba(37, 37, 37, 1);
+ --primary: rgba(167, 41, 41, 1);
+ --secondary: rgb(255, 255, 255);
+}
+
+
+
+body {
+    font-family:'Crimson Pro', 'Crimson Text';
+    background: var(--dark);
+    color: var(--secondary);
+    margin: 0 auto;
+
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Шапка */
+
+.header__content_container {
+    font-family: 'Arial';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    font-size: 25px;
+    font-weight: 700;
+    gap: 667px;
+}
+
+.header__nav {
+    flex-grow: 1;
+    display: flex;
+    gap: 31px;
+}
+
+.menu__link {
+    color: var(--secondary);
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    transition: .2s;
+}
+.menu__link:hover {
+    color: var(--primary);
+}
+
+.header__logo {
+    display: block;
+    width: 76px;
+    height: 76px;
+    background-repeat: no-repeat;
+}
+
+
+/* Первый блок*/
+
+
+
+.portfolio_info {
+    background: var(--primary);
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.photo {
+    max-width: 100%;
+}
+
+
+.software_block {
+    justify-content: space-between;
+}
+
+
+
+
+/* Подвал */
+
+    .footer {
+        max-width: 1310px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        display: flex;
+        text-align: justify;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    
